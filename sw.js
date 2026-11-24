@@ -1,0 +1,1 @@
+const r = await fetch(s.url, { method: 'POST', body: JSON.stringify({ secret: s.secret, tx: db.tx }) });
